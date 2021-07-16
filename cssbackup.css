@@ -1,18 +1,19 @@
-img#welcomesign {
-	width: 800px;
+#welcomesign {
+	width: 400px;
 	height: 400px;
 	margin: 10px auto;
 	padding: 10px;
 	border: 10px;
-	position: relative;
+	position: static;
 }
 
-img#underproduction {
+#underproduction {
        position: absolute;
        top: 80px;
        right: 50px;
-       width: 800px;
+       width: 400px;
        height: 500px;
+       left: 600px;
 }
 
 
