@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title id="title">About</title>
+    <meta name="viewport" content="width=device-width">
+    <link id="favicon" rel="icon" href="https://www.w3schools.com/favicon.ico">
+    <script src="playtesting.js"></script>
+  <body style="color white;
+    background-color: teal;
+           font-size: 18pt;
+   font-family: sans-serif;">
+    <div id= "container">
+      <nav id= "topnav">
+	  <a href="index.html">Index</a>
+	  <a href="about.html">About</a>
+          <a href="games.html">Games</a>
+          <a href="howididit.html">How I Did This</a>
+      </nav>
+    </div>
+    <div id="content">
+      <p style="margin-right:400px">oooh, I'm an old man. Is someone there? My eyesight isn't what it used to be. You can stay here if you want, but the main page is the only mostly-finished page. "Games" doesn't even have any CSS. Gosh darn it, "How I Did This" doesn't even exist. This page is just being used for JavaScript testing. I do hope you stay around and try some of the buttons. It's been so long since I've had company</p>
+      <p id="listOfThings"></p>
+      <input type="text" id="thingToDo"><br>
+      <button id="add" onclick="addThing();">Add item to List</button>
+      <br> <br> <br>
+      <p id="oldManResponse"></p>
+      <input type="text" id="userSpeak">
+      <button type="button" onclick="speakOldMan()">Speak</button>
+      <img src="oldman.png" style="position:absolute; top:50px; left:1000px;">
+      <button type="button" onclick="playGame()">Want to a play a game?</button>
+      <button type="button" onclick="changeFavicon()">Change the favicon?</button>
+      <button type="button" onclick="changeTitle()">Change the title?</button>
+     </div>
+  </body>
+</html>

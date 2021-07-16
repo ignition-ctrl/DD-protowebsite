@@ -1,0 +1,52 @@
+img#welcomesign {
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 10px;
+	position: relative;
+}
+
+img#underproduction {
+       position: absolute;
+       top: 80px;
+       right: 50px;
+       width: 800px;
+       height: 500px;
+}
+
+
+nav {
+	width:100%;
+	text-align: center;
+	height: 24px;
+	font-size: 30px;
+	font-family: 'Open Sans';
+}
+
+#topnav a {
+        color:blue;
+}
+
+#topnav a:hover {
+	background-color: green;
+	text-decoration: underline
+}
+
+#topnav a:visited {
+    color: blue;
+}
+
+
+.topright{
+  position: absolute;
+  top: 80px;
+  right: 60px;
+  left:550px;
+  font-size: 18px;
+  Font-family: 'Open Sans';
+}
+
+button {
+	background-color:gray;
+}
